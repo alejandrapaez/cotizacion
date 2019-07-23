@@ -20,7 +20,7 @@ public class conexion {
         Connection con = null;
         try {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
-            con=DriverManager.getConnection("jdbc:mysql:testdispapeles.ck3glzts7fjz.us-east-1.rds.amazonaws.com:3306/DESARROLLO", "sadispapeles", "Sdf45.rdswK47h5j");
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/cotizacion", "root", "");
             
         } catch (Exception e) {
         }
